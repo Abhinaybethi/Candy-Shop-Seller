@@ -7,7 +7,7 @@
    Example: https://crudcrud.com/api/1afd1b4dfdf843dc8768c95b852e4230
    ========================================================= */
 
-const API_BASE_URL = "https://crudcrud.com/api/e87e10f703da4220bbf9746df0e6b7fa";
+const API_BASE_URL = "https://crudcrud.com/api/eb702ad64db94256860c21f37ecb26c3";
 const PRODUCTS_URL = `${API_BASE_URL}/products`;
 
 /* =========================================================

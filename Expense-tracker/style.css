@@ -1,0 +1,31 @@
+/* Custom Enhancements for Expense Tracker */
+
+body {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Card hover and subtle polish */
+.card {
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Table styling */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.04);
+}
+
+/* Form input focus state highlight */
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Action button smooth hover */
+.btn-outline-danger {
+    transition: all 0.2s ease;
+}
